@@ -24,5 +24,5 @@ function getTilesSize(box, minzoom, maxzoom) {
         var levelTotal = boundTotal === 0 ? 1 : boundTotal;
         return tiles + levelTotal;
     }, 0);
-    return numTiles * 60000;
+    return numTiles * 10000;
 }
